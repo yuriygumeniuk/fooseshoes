@@ -400,10 +400,6 @@
 	background-color: #ffffff;
 	position: relative;
 }
-.new-block__img {}
-.new-block__sale {
-	display: none;
-}
 .new-block-item.sale .new-block__sale {
 	display: flex;
 }
@@ -501,4 +497,29 @@
 }
 .new-block-footer__btn:hover {
 	color: #57c5a0;
+}
+/*---------- section best seller ----------*/
+.best-seller-block {
+	background-color: #ebe7df;
+	height: 380px;
+}
+.new-block__stock {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 0;
+	right: 12px;
+	width: 68px;
+	height: 67px;
+	background-color: #f27e4b;	
+	/*----view----*/
+	color: #ffffff;
+	font-family: "Aller-Light", sans-serif;
+	font-size: 13px;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.new-block-item.stock .new-block__stock {
+	display: flex;
 }
